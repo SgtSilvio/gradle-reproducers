@@ -23,7 +23,7 @@ Configuration cache entry stored.
 
 ```bash
 rm -r .gradle/configuration-cache build/foo.txt || true && \
-./gradlew baz --configuration-cache --console plain
+./gradlew baz --configuration-cache --console=plain
 ```
 Output:
 ```
