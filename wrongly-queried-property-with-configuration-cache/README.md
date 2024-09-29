@@ -1,4 +1,6 @@
-# Reproducer for [Gradle Issue xxxxx](https://github.com/gradle/gradle/issues/xxxxx)
+# Reproducer for [Gradle Issue 30732](https://github.com/gradle/gradle/issues/30732)
+
+Property is wrongly queried before content is available when using configuration cache
 
 ## Working Task: `bar`
 
